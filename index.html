@@ -10,12 +10,17 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="css/login.css" rel="stylesheet">	
   </head>
-  <body class="text-center bg-dark bg-gradient">	
-  
-<main class="form-login bg-dark text-white">
+  <body class="d-flex text-center bg-dark bg-gradient">	
+  <header class="d-flex float-start flex-column">
+  <img src="img/HTML5_logo.png" class="d-flex rounded " alt="HTML logo" width="80" height="80">
+  <img src="img/CSS3_logo.png" class="d-flex rounded float-end"  alt="CSS logo"  height="80">
+  <img src="img/JS_logo.png" class="rounded" alt="JS logo"  height="80">
+  <img src="img/bootstrap-logo.svg" class="d-flex rounded" alt="Bootstrap logo"  height="50">
+  </header>
+<main class="form-login d-flex w-100 h-70 bg-dark text-white">
 	
   <form class="form-login">
-    <img class="mb-4" src="img/vd.png" alt="" width="50" height="50">
+    <img class="mb-4" src="img/vd.png" alt="My logo" width="50" height="50">
     <h1 class="h3 mb-3 fw-normal">Please Login</h1>
 
     <div class="form-floating">
@@ -32,7 +37,7 @@
         <input type="checkbox" value="remember-me"> Remember me
       </label>
     </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+    <button class="w-100 btn btn-lg btn-primary" type="submit" onclick="window.open('charts.html','_blank')" >Login</button>
     <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
   </form>
 </main>

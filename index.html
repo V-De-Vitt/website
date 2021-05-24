@@ -11,12 +11,26 @@
     <link href="css/login.css" rel="stylesheet">	
   </head>
   <body class="d-flex text-center bg-dark bg-gradient">	
-  <header class="d-flex float-start flex-column">
-  <img src="img/HTML5_logo.png" class="d-flex rounded " alt="HTML logo" width="80" height="80">
-  <img src="img/CSS3_logo.png" class="d-flex rounded float-end"  alt="CSS logo"  height="80">
-  <img src="img/JS_logo.png" class="rounded" alt="JS logo"  height="80">
-  <img src="img/bootstrap-logo.svg" class="d-flex rounded" alt="Bootstrap logo"  height="50">
+  <header class="header">
+	<nav class="navbar fixed-top justify-content-center">
+		<div class="container-fluid d-flex w-150 justify-content-center align-items-center">
+		<ul class="d-flex align-items-center list-unstyled">
+			<li class="nav-item">
+				<img src="img/HTML5_logo.png" class="m-3 images" alt="HTML logo" width="80" height="80">
+			</li>
+			<li class="nav-item">
+				<img src="img/CSS3_logo.png" class="m-3 images"  alt="CSS logo"  height="80">
+			</li>
+			<li class="nav-item">
+				<img src="img/JS_logo.png" class="m-3 images" alt="JS logo"  height="80">
+			</li>
+			<li class="nav-item">
+				<img src="img/bootstrap-logo.svg" class="m-3 images" alt="Bootstrap logo"  height="50">
+			</li>
+		</ul>
+	</nav>
   </header>
+
 <main class="form-login d-flex w-100 h-70 bg-dark text-white">
 	
   <form class="form-login">
@@ -38,8 +52,8 @@
       </label>
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit" onclick="window.open('charts.html', '_blank');" >Login</button>
-    <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
-	<a href="./charts.html">next page</a>
+    <p class="mt-5 mb-3 text-light">&copy; 2021</p>
+	<!-- <a href="./charts.html">next page</a> -->
   </form>
 </main>
    

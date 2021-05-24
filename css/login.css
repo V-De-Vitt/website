@@ -52,6 +52,9 @@ body {
   -webkit-animation: flux 2s linear infinite;
   -o-animation: flux 2s linear infinite;
 }
+.images {
+	animation: images 10s;
+}
 
 @keyframes flux {
   0%,
@@ -63,4 +66,18 @@ body {
     text-shadow: 0 0 .25vw #082180, 0 0 0.35vw #082180, 0 0 0.5vw #082180, 0 0 0.35vw #082180, 0 0 .2vw #082180, .15vw .15vw .1vw #0A3940;
     color: #146C80;
   }
+}
+@keyframes images {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0;
+	
+	50% {
+		opacity: 0.3;
+	}
+	100% {
+		opacity: 1;
+	}
 }

@@ -39,3 +39,28 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.flux {
+  color: #0d6efd; /*#426DFB*/
+  font-size: 2vw;
+  line-height: 2vw;
+  text-shadow: 0 0 0.25vw #212529; /*#2356FF*/
+}
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 1vw #1041FF, 0 0 1vw #1041FF, 0 0 1vw #1041FF, 0 0 .4vw #8BFDFE, .15vw .25vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .25vw #082180, 0 0 0.35vw #082180, 0 0 0.5vw #082180, 0 0 0.35vw #082180, 0 0 .2vw #082180, .15vw .15vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
